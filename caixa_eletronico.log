@@ -1,0 +1,26 @@
+fev 26, 2025 1:31:04 PM com.caixaeletronico.servidor.Servidor main
+INFORMAÇÕES: Servidor iniciado. Aguardando conexões...
+fev 26, 2025 1:31:34 PM com.caixaeletronico.servidor.Servidor main
+INFORMAÇÕES: Servidor iniciado. Aguardando conexões...
+fev 26, 2025 1:32:17 PM com.caixaeletronico.servidor.Servidor main
+INFORMAÇÕES: Nova conexão recebida: /127.0.0.1
+fev 26, 2025 1:32:23 PM com.caixaeletronico.servidor.Servidor$ClientHandler run
+INFORMAÇÕES: Usuário user1 autenticado com sucesso.
+fev 26, 2025 1:32:29 PM com.caixaeletronico.servidor.Servidor$ClientHandler run
+INFORMAÇÕES: Saque de R$ 2500.0 na conta 1001 realizado com sucesso.
+fev 26, 2025 1:32:30 PM com.caixaeletronico.servidor.Servidor$ClientHandler run
+INFORMAÇÕES: Consulta de saldo na conta 1001: R$ 2500.0
+fev 26, 2025 1:32:49 PM com.caixaeletronico.servidor.Servidor$ClientHandler run
+INFORMAÇÕES: Depósito de R$ 2500.0 na conta 1002 realizado com sucesso.
+fev 26, 2025 1:32:50 PM com.caixaeletronico.servidor.Servidor$ClientHandler run
+INFORMAÇÕES: Consulta de saldo na conta 1001: R$ 2500.0
+fev 26, 2025 1:32:52 PM com.caixaeletronico.servidor.Servidor$ClientHandler run
+INFORMAÇÕES: Usuário user1 encerrou a conexão.
+fev 26, 2025 1:33:02 PM com.caixaeletronico.servidor.Servidor main
+INFORMAÇÕES: Nova conexão recebida: /127.0.0.1
+fev 26, 2025 1:33:06 PM com.caixaeletronico.servidor.Servidor$ClientHandler run
+INFORMAÇÕES: Usuário user2 autenticado com sucesso.
+fev 26, 2025 1:33:08 PM com.caixaeletronico.servidor.Servidor$ClientHandler run
+INFORMAÇÕES: Consulta de saldo na conta 1002: R$ 5500.0
+fev 26, 2025 1:33:44 PM com.caixaeletronico.servidor.Servidor$ClientHandler run
+INFORMAÇÕES: Usuário user2 encerrou a conexão.
