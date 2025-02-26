@@ -11,7 +11,7 @@ public class Servidor {
     private static final Logger logger = Logger.getLogger(Servidor.class.getName());
 
     public static void main(String[] args) {
-        // Configura o logger para escrever em um arquivo
+        
         try {
             FileHandler fileHandler = new FileHandler("caixa_eletronico.log", true);
             fileHandler.setFormatter(new SimpleFormatter());
@@ -21,7 +21,7 @@ public class Servidor {
             e.printStackTrace();
         }
 
-        // Inicializa as contas pré-cadastradas
+        
         contas.put(1001, new Conta(1001, "user1", "pass1", 5000.00));
         contas.put(1002, new Conta(1002, "user2", "pass2", 3000.00));
 
